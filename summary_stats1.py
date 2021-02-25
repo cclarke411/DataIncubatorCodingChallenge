@@ -33,6 +33,7 @@ def median_vals(values,index):
         median_vals = (values[new_index-1]+values[new_index])/2
     return median_vals
 
+# Input precision of values
 while True:
     precision = input("Input the percision you want for your values\n")
     try:
@@ -41,7 +42,7 @@ while True:
         print("Value Error: Enter another percision")
     if True:
         break
-
+# Main loop for calculating running summary statistics
 while True:
     data = input("Type Exit to close \n\nPlease enter a Value:\n")
     if 'Exit' == data:
