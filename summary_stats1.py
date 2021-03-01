@@ -39,7 +39,7 @@ while True:
     try:
         precision = int(precision)
     except ValueError as e:
-        print("Value Error: Enter another percision")
+        print("Value Error: Enter another precision")
     if True:
         break
 # Main loop for calculating running summary statistics
