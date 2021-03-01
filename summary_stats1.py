@@ -35,7 +35,7 @@ def median_vals(values,index):
 
 # Input precision of values
 while True:
-    precision = input("Input the percision you want for your values\n")
+    precision = input("Input the precision you want for your values\n")
     try:
         precision = int(precision)
     except ValueError as e:
